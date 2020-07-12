@@ -9,6 +9,6 @@ Points of interest include:
 - Favicon Usage
 - Mobile Responsiveness
 - Async JavaScript
-- Fetching and parsing JSON from an API
+- Fetching and parsing JSON from the [forismatic API](https://forismatic.com/en/api/)
 
 I've written an [accompanying blog entry](https://medium.com/@duliodenis/using-a-vector-pattern-background-on-a-web-page-f96191a831d1) on implementing the vector background.
