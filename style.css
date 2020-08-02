@@ -82,6 +82,22 @@ button:active {
   font-size: 1.5rem;
 }
 
+/* Loader */
+/* see: https://www.w3schools.com/howto/howto_css_loader.asp */
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #333; /* dark gray */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 /* Media Query */
 @media screen and (max-width: 1000px) {
   .quote-container {
